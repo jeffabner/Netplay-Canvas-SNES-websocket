@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:3000/clients");
+const socket = io("wss://servidor-websocket-canvas-snes.onrender.com/clients");
 let simplePeer = null;
 
 let room = new URL(window.location.href).searchParams.get('room');
